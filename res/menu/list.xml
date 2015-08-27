@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <item
+        android:id="@+id/listview"
+        android:orderInCategory="100"
+        android:title="Show Results"/>
+    
+    <item
+        android:id="@+id/uploads"
+        android:orderInCategory="100"
+        android:title="Other User Results"/>
+    <item
+        android:id="@+id/pref"
+        android:orderInCategory="100"
+        android:title="Preference"/>
+    
+    
+    
+
+</menu>

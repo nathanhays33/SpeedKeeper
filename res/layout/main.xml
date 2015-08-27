@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/holder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/blue" 
+     >
+
+
+    <LinearLayout 
+        android:id="@+id/speed"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:gravity="center_horizontal" 
+        android:orientation="vertical" 
+        android:layout_centerInParent="true"
+        >
+
+            <TextView 
+                android:id="@+id/speedvalue" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:layout_gravity="center_horizontal" 
+                android:textSize="60sp" 
+                android:textColor="@color/off_white"/>
+
+            <TextView 
+                android:id="@+id/speedlabel" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"  
+                android:text="Speed" 
+                android:textColor="@color/off_white"
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:gravity="center_horizontal" 
+        android:orientation="vertical" 
+        android:layout_centerInParent="true" >
+        <TextView 
+            android:id="@+id/maxspeedvalue" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:layout_gravity="center_horizontal" 
+            android:textColor="@color/off_white"
+            android:textSize="60sp" />
+        <TextView 
+            android:id="@+id/maxspeedtitle" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:layout_gravity="center_horizontal" 
+           android:textColor="@color/off_white"
+            android:text="Max Speed" 
+            android:textSize="20sp" />
+        </LinearLayout>
+
+    
+
+    
+    
+   <LinearLayout
+       android:id="@+id/linearLayout3"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+       android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/totalmaxlabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="5dip"
+            android:text="All Time Max: "
+            android:textColor="@color/off_white"
+            android:textSize="20dip" >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/totalmaxvalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/off_white"
+            android:textSize="20dip" >
+
+        </TextView>
+    </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/distancelabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="5dip"
+            android:text="Distance: "
+            android:textColor="@color/off_white"
+            android:textSize="20dip" >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/distancevalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/off_white"
+            android:textSize="20dip" >
+
+        </TextView>
+    </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/accuracyLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/red"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:id="@+id/accuTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Accurancy "
+                    android:textColor="@color/off_white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/accuValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/off_white"
+                    android:text="...waiting for location"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Requires a value smaller than 20"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColorHint="@color/white"
+                android:textColor="@color/off_white"
+                android:textSize="10sp" />
+
+            <LinearLayout
+                android:id="@+id/altLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:id="@+id/altTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="Altitude: "
+                    android:textColor="@color/off_white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/altValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NA"
+                    android:textColor="@color/off_white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+                <Button
+                    android:id="@+id/button"
+                    android:background="@drawable/apptheme_btn_default_holo_light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="action" 
+                    android:padding="20px"
+                    android:text="Start"
+                    android:textColor="@color/off_white"
+                    android:layout_marginTop="5dp"
+                    android:visibility="invisible"/>
+</LinearLayout> 
+

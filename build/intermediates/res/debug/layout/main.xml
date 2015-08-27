@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?><LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:id="@+id/holder"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/metal_background"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/unit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right"
+        android:text="" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_menu" 
+        android:background="@null"
+        android:layout_gravity="top|right"
+        android:onClick="menu"/>
+    
+    <LinearLayout 
+        android:id="@+id/speed"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:gravity="center_horizontal" 
+        android:orientation="vertical" 
+        android:padding="18dp" 
+        android:background="@drawable/circle_background_blue" 
+        android:layout_centerInParent="true">
+
+            <TextView 
+                android:id="@+id/speedvalue" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content" 
+                android:layout_gravity="center_horizontal" 
+                android:text="0" 
+                android:textColor="@color/white" 
+                android:textSize="55sp" />
+
+            <TextView 
+                android:id="@+id/speedlabel" 
+                android:layout_width="wrap_content" 
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"  
+                android:text="Speed" 
+                android:textColor="@color/white" 
+                android:textSize="20sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:gravity="center_horizontal" 
+        android:orientation="vertical" 
+        android:padding="15dp" 
+        android:background="@drawable/circle_background_red" 
+        android:layout_centerInParent="true" >
+        <TextView 
+            android:id="@+id/maxspeedvalue" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:layout_gravity="center_horizontal" 
+            android:text="0" 
+            android:textColor="@color/white" 
+            android:textSize="50sp" />
+        <TextView 
+            android:id="@+id/maxspeedtitle" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" 
+            android:layout_gravity="center_horizontal" 
+           
+            android:text="Max Speed" 
+            android:textColor="@color/white" 
+            android:textSize="20sp" />
+        </LinearLayout>
+
+    
+
+    
+    
+   <LinearLayout
+       android:id="@+id/linearLayout3"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+       android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/totalmaxlabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="5dip"
+            android:text="All Time Max: "
+            android:textColor="@color/white"
+            android:textSize="20dip" >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/totalmaxvalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="20dip" >
+
+        </TextView>
+    </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal" >
+
+        <TextView
+            android:id="@+id/distancelabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="5dip"
+            android:text="Distance: "
+            android:textColor="@color/white"
+            android:textSize="20dip" >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/distancevalue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="20dip" >
+
+        </TextView>
+    </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/accuracyLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/red"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:id="@+id/accuTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Accurancy "
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/accuValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Requires a value smaller than 20"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="10sp" />
+
+            <LinearLayout
+                android:id="@+id/altLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:id="@+id/altTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:text="Altitude: "
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/altValue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NA"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/starttoggle"
+                    android:onClick="action" 
+                    android:layout_marginTop="5dp"/>
+ 
+           <com.google.ads.AdView
+                 android:id="@+id/adView"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:layout_marginTop="5dp"
+                 ads:adSize="BANNER"
+                 ads:adUnitId="ca-app-pub-2377934805759836/7890199761"
+                 ads:loadAdOnCreate="true" />    
+
+</LinearLayout> 
+
+<!-- From: file:/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/layout/main.xml -->

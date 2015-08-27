@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/accuValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/accuTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="Top Speed"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/test2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Distance"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+         <TextView
+             android:id="@+id/test3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="20dp"
+             android:text="Alt Change"
+             android:textAppearance="?android:attr/textAppearanceLarge" />
+         
+             <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_menu" 
+        android:background="@null"
+        android:onClick="menu"/>
+
+    </LinearLayout>
+    
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:layout_height="180dp" >
+
+    </ListView>
+    <!-- 
+              <com.google.ads.AdView
+                  android:id="@+id/adView"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+
+                  android:layout_gravity="center_horizontal"
+                  ads:adSize="BANNER"
+                  ads:adUnitId="ca-app-pub-2377934805759836/7890199761"
+                  ads:loadAdOnCreate="true"
+
+                  android:gravity="bottom" />
+                  -->
+
+</LinearLayout>
+<!-- From: file:/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/layout/list.xml -->

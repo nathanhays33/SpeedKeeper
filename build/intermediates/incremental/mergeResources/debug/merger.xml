@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res" >
+            <file
+                name="circle_background_blue"
+                path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/drawable/circle_background_blue.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="circle_background_red"
+                path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/drawable/circle_background_red.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="greensquare"
+                path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/drawable/greensquare.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_menu"
+                path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/drawable/ic_menu.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="icon"
+                path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/drawable/icon.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="icon_small"
+                path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/drawable/icon_small.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="redsquare"
+                path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/drawable/redsquare.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="shutter_button"
+                path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/drawable/shutter_button.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="start"
+                path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/drawable/start.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="start_active"
+                path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/drawable/start_active.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="starttoggle"
+                path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/drawable/starttoggle.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="stop"
+                path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/drawable/stop.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="stop_active"
+                path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/drawable/stop_active.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="stoptoggle"
+                path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/drawable/stoptoggle.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="metal_background"
+                path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/drawable-hdpi/metal_background.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/drawable-ldpi/ic_launcher.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="metal_background"
+                path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/drawable-ldpi/metal_background.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="metal_background"
+                path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/drawable-mdpi/metal_background.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="grid_item"
+                path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/layout/grid_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list"
+                path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/layout/list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list"
+                path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/menu/list.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="listmenu"
+                path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/menu/listmenu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/values/analytics.xml"
+                qualifiers="" >
+                <bool name="ga_autoActivityTracking" >
+true
+                </bool>
+
+                <string name="ga_trackingId" >UA-44331941-4
+                </string>
+
+                <bool name="ga_reportUncaughtExceptions" >
+true
+                </bool>
+            </file>
+            <file
+                path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/values/colors.xml"
+                qualifiers="" >
+                <color name="green" >#4DE62E
+                </color>
+                <color name="white" >#FFFFFF
+                </color>
+                <color name="black" >#000000
+                </color>
+                <color name="red" >#F20010
+                </color>
+                <color name="yellow" >#FFFD00
+                </color>
+            </file>
+            <file
+                path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/values/strings.xml"
+                qualifiers="" >
+                <string name="action_settings" >Settings
+                </string>
+                <string name="app_name" >Max Speed Keeper
+                </string>
+                <string name="title_activity_list" >Trip List
+                </string>
+            </file>
+            <file
+                path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/values-sw720dp-land/dimens.xml"
+                qualifiers="sw720dp-land-v13" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                name="pref"
+                path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/xml/pref.xml"
+                qualifiers=""
+                type="xml" />
+        </source>
+        <source path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/build/generated/res/rs/debug" />
+        <source path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/nathanhays/Downloads/AndroidSQLiteTutorial/build-types/debug/res" />
+    </dataSet>
+
+</merger>

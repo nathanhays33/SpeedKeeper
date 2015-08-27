@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Max Speed Keeper</string>
+    <string name="title_activity_list">Previous Results</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail_trip">DetailTrip</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

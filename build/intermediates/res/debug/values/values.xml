@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/values/analytics.xml -->
+    <eat-comment />
+
+    <bool name="ga_autoActivityTracking">true</bool>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+    <!-- From: file:/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/values/colors.xml -->
+    <eat-comment />
+
+    <color name="black">#000000</color>
+    <color name="green">#4DE62E</color>
+    <color name="red">#F20010</color>
+    <color name="white">#FFFFFF</color>
+    <color name="yellow">#FFFD00</color>
+    <!-- From: file:/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Max Speed Keeper</string>
+    <!-- From: file:/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/values/analytics.xml -->
+    <eat-comment />
+
+    <string name="ga_trackingId">UA-44331941-4</string>
+    <!-- From: file:/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="title_activity_list">Trip List</string>
+
+</resources>

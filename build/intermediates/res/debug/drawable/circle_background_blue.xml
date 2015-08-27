@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval" >
+
+    <gradient
+       
+        android:startColor="#2f7ac2"
+        android:endColor="#132f57"
+        android:gradientRadius="100"
+        android:type="radial" >
+    </gradient>
+
+</shape><!-- From: file:/Users/nathanhays/Downloads/AndroidSQLiteTutorial/res/drawable/circle_background_blue.xml -->
